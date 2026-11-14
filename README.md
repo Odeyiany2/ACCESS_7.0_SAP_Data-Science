@@ -55,6 +55,38 @@ We'll work with the following tools throughout the programme:
 - **Matplotlib and Seaborn:** Data visualisation.
 - **Scikit-learn:** Building and evaluating Machine Learning models.
 - **GitHub:** Organising, sharing and showcasing our code and projects.
+### What about C and C++?
+
+C and C++ are also important in the broader Data Science and computing ecosystem. Although Python is commonly used for data analysis and Machine Learning, C and C++ are widely used in areas where performance, memory management and efficient computation are important.
+
+Here are some examples:
+
+| Area | Library / Technology | Application |
+|---|---|---|
+| Numerical Computing | NumPy (C API) | Supports lower-level access to NumPy arrays and extensions. |
+| Machine Learning | PyTorch (LibTorch) | Building and running neural networks directly with C++. |
+| Machine Learning | XGBoost | Provides C++ interfaces for gradient-boosting algorithms. |
+| Computer Vision | OpenCV | Image processing, object detection and computer vision applications. |
+| Data Engineering | Apache Arrow | Efficient in-memory data representation and processing. |
+| High-Performance Computing | CUDA C++ | Using GPUs to accelerate computationally intensive tasks. |
+
+Some examples worth exploring:
+
+- [NumPy](https://numpy.org/doc/stable/reference/c-api/) – C API documentation.
+- [PyTorch C++ API](https://docs.pytorch.org/cppdocs/) – Machine Learning with C++.
+- [XGBoost](https://xgboost.readthedocs.io/) – Gradient-boosting library.
+- [OpenCV](https://opencv.org/) – Computer vision library.
+- [Apache Arrow](https://arrow.apache.org/docs/cpp/) – High-performance data processing.
+
+**An important distinction:** You can use a Python library without writing C or C++ yourself. Some Python libraries use lower-level languages internally to make their operations more efficient. Others also provide interfaces that allow developers to work with them directly in C or C++.
+
+### What about R?
+
+R is another popular language, particularly for statistical analysis, data visualisation and research. It is widely used in fields such as statistics, economics, healthcare and academic research.
+
+We'll focus on Python in this programme, but understanding that other languages exist and have different strengths is part of becoming a well-rounded Data Science practitioner.
+
+**The key takeaway:** You don't need to know every programming language to work in Data Science. What matters is understanding the problem, knowing how to work with data and choosing the right tools to solve it.
 
 ## Repository Structure
 
