@@ -8,6 +8,9 @@ Whether you're studying Accounting, Business, Computer Science, Engineering, Agr
 
 **No prior programming or Data Science experience is required.** We'll learn step by step, with plenty of practical exercises along the way.
 
+**Tutor:** Miriam Odeyiany
+
+
 ---
 
 ## About the Programme
