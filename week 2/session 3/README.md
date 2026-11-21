@@ -1,103 +1,177 @@
-# Week 2 – Session 3: Working with Data in Python
-
-**Course:** Introduction to Data Science with Python: From Data to Insights  
+# Week 2 – Session 3: Python Fundamentals Continued: Lists, Dictionaries, Functions & GitHub  
 **Programme:** ACCESS 7.0 – Skill Acquisition Programme  
 **Session:** 3  
 **Week:** 2
 
 **Tutor:** Miriam Odeyiany
 
-## About This Session
+### Session Overview
 
-In this session, we build on the Python foundations introduced in Session 2. We revisit loops, with particular attention to `while` loops, and learn how to organise and work with information using Python data structures.
+In this session, we build on the Python fundamentals introduced in Session 2. We move beyond storing individual values and writing basic instructions to organising information and creating reusable blocks of code.
 
-We then take our first steps into numerical computing and data manipulation with NumPy and Pandas. Towards the end of the session, we load and explore the Sample Superstore dataset, preparing for more detailed data analysis in subsequent sessions.
+Students will explore Python lists and dictionaries, learn how to define and use functions, and practise combining these concepts with loops and conditional statements to solve a practical problem.
 
-## Learning Objectives
+We will also introduce GitHub as a platform for organising, storing and sharing programming projects.
+
+### Learning Objectives
 
 By the end of this session, students should be able to:
 
-- Use `for` and `while` loops to repeat instructions.
-- Understand the use of `break` and `continue`.
-- Create and manipulate lists, tuples and dictionaries.
-- Use loops to work with collections of data.
-- Create NumPy arrays and perform basic numerical operations.
-- Understand Pandas Series and DataFrames.
-- Load and inspect a dataset using Pandas.
-- Perform basic data exploration using Pandas commands.
+- Create and manipulate Python lists.
+- Access, update, add and remove items from lists.
+- Understand dictionaries and key-value pairs.
+- Access and modify dictionary information.
+- Combine lists and dictionaries to organise related information.
+- Define and call simple Python functions.
+- Understand parameters, arguments and return values.
+- Combine functions, loops and conditional statements to solve problems.
+- Understand the purpose of GitHub and create a repository.
+- Upload and share a Google Colab notebook using GitHub.
 
-## Topics Covered
+### Topics Covered
 
-### 1. Revisiting Python Loops
-- `for` loops
-- `while` loops
-- Loop conditions and counters
-- `break` and `continue`
+**1. Recap of Python Foundations**
 
-### 2. Python Data Structures
-- Lists
-- Tuples
-- Dictionaries
-- Accessing and updating stored information
-- Iterating through data structures
+- Variables and data types
+- Operators
+- Conditional statements
+- `for` and `while` loops
 
-### 3. Introduction to NumPy
-- Creating arrays
-- Basic array operations
-- Calculating sums, averages, minimum and maximum values
+**2. Python Lists**
 
-### 4. Introduction to Pandas
-- Series and DataFrames
-- Creating DataFrames
-- Reading datasets
-- Inspecting rows, columns and data types
-- Selecting columns and filtering records
-- Creating new columns
+- Creating lists
+- Indexing and accessing items
+- Negative indexing
+- Updating list items
+- Adding and removing items
+- Using lists with loops
 
-### 5. Working with a Dataset
-- Introduction to the Sample Superstore dataset
-- Loading a CSV file into Google Colab
-- Initial dataset exploration
-- Asking simple questions of data
+**3. Python Dictionaries**
 
-## Tools and Libraries
+- Understanding key-value pairs
+- Creating dictionaries
+- Accessing and updating values
+- Adding new key-value pairs
+- Using dictionary methods
+- Looping through dictionaries
+
+**4. Combining Data Structures**
+
+- Lists containing dictionaries
+- Accessing nested information
+- Combining lists, loops and conditional statements
+
+**5. Python Functions**
+
+- Understanding reusable code
+- Defining and calling functions
+- Parameters and arguments
+- Functions with multiple parameters
+- Understanding `return`
+- Difference between `print()` and `return`
+- Combining functions with loops and conditions
+
+**6. Reading and Understanding Code**
+
+- Understanding existing Python code
+- Predicting programme outputs
+- Breaking down code into smaller steps
+
+**7. Practical Exercise**
+
+Students apply their knowledge of lists, dictionaries, functions, loops and conditional statements to a retail shop scenario.
+
+**8. Introduction to GitHub**
+
+- What Git and GitHub are
+- Understanding repositories
+- Introduction to README files
+- Creating a repository
+- Uploading notebooks
+- Sharing repository links
+
+### Tools and Platforms
 
 - **Python:** Programming language used throughout the course.
-- **Google Colab:** Cloud-based environment for writing and running Python code.
-- **NumPy:** Library for numerical computing.
-- **Pandas:** Library for data manipulation and analysis.
-- **GitHub:** Platform for storing and sharing project notebooks.
+- **Google Colab:** Online environment for writing and executing Python code.
+- **GitHub:** Platform for storing, organising and sharing code and project files.
 
-## Session 3 Assignment: Explore a New Dataset
+### Assignment: Python Fundamentals in Practice
 
-For independent practice, students will work with the UCI Bike Sharing Dataset.
+**Scenario**
 
-**Dataset:** [UCI Bike Sharing Dataset](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset)
+A small retail shop wants to calculate the revenue generated by its products and identify which products need restocking.
 
-The assignment involves:
+You are provided with the following product information:
 
-1. Downloading and loading the `hour.csv` dataset into Google Colab.
-2. Inspecting the first five rows, dataset dimensions, column names and data types.
-3. Calculating basic statistics for the rental count (`cnt`).
-4. Exploring the `season` column.
-5. Selecting specific columns and filtering records.
-6. Writing a short reflection on observations and possible questions for further investigation.
+| Product | Unit Price (₦) | Quantity Sold | Stock Remaining |
+|---|---:|---:|---:|
+| Notebook | 1,200 | 18 | 8 |
+| Pen | 350 | 40 | 25 |
+| Calculator | 5,500 | 6 | 4 |
+| School bag | 8,000 | 5 | 12 |
+| Water bottle | 2,000 | 10 | 7 |
 
-### Submission Requirements
+**Tasks**
+
+**Part A – Working with Lists and Dictionaries**
+
+1. Create a list containing the five products.
+2. Represent each product using a dictionary containing its name, unit price, quantity sold and remaining stock.
+3. Print the name and price of each product.
+
+**Part B – Functions**
+
+4. Write a function called `calculate_revenue` that accepts a product's unit price and quantity sold.
+5. The function should calculate and return the revenue.
+6. Test the function using at least two different products.
+
+**Part C – Loops and Conditional Statements**
+
+7. Use a loop to go through all the products.
+8. Calculate the revenue for each product using your function.
+9. Check whether the remaining stock is 10 units or fewer.
+10. Print each product's name, revenue and stock status. Display `"Restock"` when the stock is 10 or fewer and `"Stock is sufficient"` otherwise.
+
+**Part D – Reflection**
+
+11. Which product generated the highest revenue?
+12. Which products need restocking?
+13. Explain why using a function is better than repeating the same calculation for every product.
+
+### Submission Instructions
 
 - Complete the assignment in a Google Colab notebook.
-- Include short Markdown explanations alongside the code.
-- Ensure all code cells run without errors.
-- Save the notebook as `Session_3_Data_Exploration_Assignment.ipynb`.
-- Upload the notebook to your GitHub repository.
-- Submit the repository or notebook link in the class Google Sheet under your own name.
+- Include short Markdown explanations describing what your code does.
+- Ensure your code cells run without errors.
+- Save your notebook as `Session_3_Python_Fundamentals_Assignment.ipynb`.
+- Upload your notebook to your GitHub repository.
+- Submit your GitHub repository or notebook link in the course submission Google Sheet, under your own name.
 
-## Looking Ahead
+[Submit your assignment through the Google Sheet](https://docs.google.com/spreadsheets/d/1d5WZvTn8jjHXPDTw3V4Bdxmo0Aqwuoem8JZp_EpCDVg/edit?usp=sharing)
 
-**Next Session: Data Quality and Data Cleaning**
+**Important:** Your submission should demonstrate your understanding of the concepts. Do not simply copy code without understanding what each instruction does.
 
-We will explore common data quality problems, including missing values, duplicate records, inconsistent entries and incorrect data types. We will use a deliberately messy version of the Sample Superstore dataset for practical exercises.
+### Recommended Learning Resources
 
----
+- [Python Official Tutorial](https://docs.python.org/3/tutorial/)
+- [Python Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+- [Python Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+- [Google Colab](https://colab.research.google.com/)
+- [GitHub Get Started](https://docs.github.com/en/get-started)
+- [GitHub Skills](https://skills.github.com/)
 
-*ACCESS 7.0 | Introduction to Data Science with Python: From Data to Insights*
+### Next Session: Introduction to NumPy and Pandas
+
+In the next session, we will begin working with actual datasets using Python.
+
+We will explore:
+
+- Introduction to NumPy arrays and basic numerical operations.
+- Introduction to Pandas Series and DataFrames.
+- Loading CSV and Excel files.
+- Inspecting datasets and understanding their structure.
+- Selecting columns and filtering rows.
+- Exploring a real-world dataset using Pandas.
+
+We will move from writing Python instructions to using Python to work with data.
