@@ -90,7 +90,7 @@ Students will work through hands-on exercises involving:
 
 ### Assignment: Working with Data Using NumPy and Pandas
 
-Students will complete an individual notebook-based assignment using this dataset - .
+Students will complete an individual notebook-based assignment using this [dataset](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset).
 
 The assignment will require them to:
 
